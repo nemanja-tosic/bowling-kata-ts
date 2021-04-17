@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ESNext"],
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+
+    "outDir": "./dist",
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "baseUrl": "../",
+    "paths": {
+      "@kata/*": ["*"]
+    }
+  }
+}

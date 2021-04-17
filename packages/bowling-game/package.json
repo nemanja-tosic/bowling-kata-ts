@@ -1,0 +1,20 @@
+{
+  "name": "@kata/bowling-game",
+  "exports": {
+    "./*": "./dist/*"
+  },
+  "scripts": {
+    "build": "yarn g:build",
+    "test": "yarn build && mocha dist/test"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^8.2.2",
+    "@types/sinon": "^10.0.0",
+    "@types/sinon-chai": "^3.2.5",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "sinon": "^10.0.0",
+    "sinon-chai": "^3.6.0"
+  }
+}
